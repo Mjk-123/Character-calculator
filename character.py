@@ -119,7 +119,7 @@ def main():
     cycle_counts = list(map(int, args.cycles.split(",")))
 
     if len(cycle_counts) != sum(partition):
-        raise ValueError("Cycle counts must be of length 10 for S_10")
+        raise ValueError("Cycle counts and partition length are not valid.")
 
     cycle_lengths = parse_cycle_type(cycle_counts)
     chi_M = character_M(partition, cycle_lengths)
