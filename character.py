@@ -125,8 +125,8 @@ def main():
     chi_M = character_M(partition, cycle_lengths)
     chi_S = character_S(partition, cycle_lengths)
 
-    print(f"χ_M^λ(C_i) = {chi_M}")
-    print(f"χ_S^λ(C_i) = {chi_S}")
+    print(f"chi_M^lambda(C_i) = {chi_M}")
+    print(f"chi_S^lambda(C_i) = {chi_S}")
 
 if __name__ == "__main__":
     main()
