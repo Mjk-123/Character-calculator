@@ -100,7 +100,7 @@ def character_S(partition, cycle_lengths):
 def main():
     parser = argparse.ArgumentParser(
         prog="character.py",
-        description="Compute χ_{M^λ}(C_i) and χ_{S^λ}(C_i) for S_n, e.g. n=10."
+        description="Compute chi_{M^lambda}(C_i) and chi_{S^lambda}(C_i) for S_n, e.g. n=10."
     )
     parser.add_argument(
         "-p", "--partition",
